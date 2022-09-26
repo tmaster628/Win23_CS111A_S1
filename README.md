@@ -5,8 +5,6 @@ Welcome to CS111A! Throughout this quarter, I'll be making a few code repos for 
 
 To clone this repository, log into myth, navigate to where you want the project to live, and then type
 
-`git clone https://github.com/tmaster628/CS111A_NewCAOrientation_Ex.git`
+`git clone https://github.com/tmaster628/Fall22_CS111A_S1.git`
 
-From there, `cd` into the repo and type `make`. Now the program should be ready to run by typing
-
-`./runMain`
+From there, `cd` into the repo and type `make`. Now you should be able to run the available programs!

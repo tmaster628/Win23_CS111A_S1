@@ -9,5 +9,5 @@ To clone this repository, log into myth, navigate to where you want the project 
 
 From there, `cd` into the repo and type `make`. Now you should be able to run the available programs!
 
-You'll want to type `make` to compile the code. There is a bare-bones testing harness that will test your programs that can be run by typing 
+There is a bare-bones testing harness that will test your programs that can be run by typing 
 `./RunMain`

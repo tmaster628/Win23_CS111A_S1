@@ -17,7 +17,6 @@ using namespace std;
 */
 void reverseVec(vector<int> &vec) {
     // TODO: Implement me!
-    (void)vec; 
 }
 
 /**
@@ -126,7 +125,7 @@ int main() {
     if (tests[0] == 0) {
         cout << "Function #1: Passes the sample test!" << endl;
     } else {
-        cout << "Function #1: Passes the sample test!" << endl;
+        cout << "Function #1: FAILS the sample test!" << endl;
     }
 
     cout << "#################################\n\n" << endl;
@@ -244,11 +243,14 @@ int main() {
     }
 
     cout << "#################################\n\n" << endl;
-
-    if (!tests[0] && !tests[1] && !tests[2] && !tests[3] && !tests[4]) {
-        cout << "You passed all of the tests. Nice!" << endl;
+    
+    int num_pass = 5;
+    for (int i = 0; i < 5; i++) {
+        num_pass -= tests[i];
     }
-
+    cout << "You passed " << num_pass << " of the provided tests.";
+    if (num_pass == 5) cout << "Wahoo!" << endl;
+    else cout << endl;
 }
 
 

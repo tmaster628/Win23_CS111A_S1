@@ -1,4 +1,4 @@
-TARGETS = RunMain PointerPlayground
+TARGETS = runMain PointerPlayground
 
 #ARCH = -m32
 #CXXBASE = clang++
@@ -19,7 +19,7 @@ all: $(TARGETS)
 $(OBJS): $(HEADERS)
 
 
-RunMain: main.cc
+runMain: main.cc
 	$(CXX) -o $@ $^
 
 PointerPlayground: PointerPlayground.cc
